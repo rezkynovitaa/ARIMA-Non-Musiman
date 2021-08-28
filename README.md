@@ -53,7 +53,10 @@ Berdasarkan hasil R, taksiran parameter model MA(1) dan MA(2) adalah signifikan 
 
 ## Pengujian residual White noise melalui L-Jung Box test
 H0  : Residual white noise
+
 H1  : tidak residual white noise
+
+
 ![image](https://user-images.githubusercontent.com/85878732/131203896-c7923729-f460-4d8f-a0a1-ceba0020d20f.png)
 
 Berdasarkan hasil output pengujian residual Ljung Box diperoleh p-value = 0,3927 > alpha = 0,05 yang berarti bahwa gagal tolak H0. Jadi dapat disimpulkan bahwa residual white noise.
@@ -61,6 +64,7 @@ Berdasarkan hasil output pengujian residual Ljung Box diperoleh p-value = 0,3927
 ## Pengujian residual berdistribusi normal
 Pengujian apakah residual berdistribusi normal atau tidak dapat dilakukan melalui beberapa cara yaitu: uji Shapiro-Wilk, uji Shapiro-Francia, uji Anderson-Darling, atau uji Lilliefors (Kolmogorov-Smirnov). Adapun hipotesis untuk uji residual berdistribusi normal adalah : 
 H0 : tidak berdistribusi Normal
+
 H1 : Berdistribusi Normal
 
 uji Shapiro-Wilk 
